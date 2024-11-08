@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Cartes Pokémon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="logo_pkmn.png" alt="Logo Pokémon Cartes à collectionner"/>
+        <nav>
+          <ul class="menu">
+            <h3><a href="index.html">Ajouter une carte</a></h3>
+            <h3><a href='collection.html'>Collection</a></h3>
+          </ul>
+        </nav>
+    </header>
+<section>
+  <h1>Ajouter une Carte Pokémon</h1>
+  <form id="add-card-form">
+    <label for="name">Nom du Pokémon :</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="hp">Points de Vie (PV) :</label>
+    <select id="hp" name="hp" required>
+      <option value="" disabled selected>Sélectionner les PV</option>
+      <option value="10">10 PV</option>
+      <option value="20">20 PV</option>
+      <option value="30">30 PV</option>
+      <option value="40">40 PV</option>
+      <option value="50">50 PV</option>
+      <option value="60">60 PV</option>
+      <option value="70">70 PV</option>
+      <option value="80">80 PV</option>
+      <option value="90">90 PV</option>
+      <option value="100">100 PV</option>
+      <option value="110">110 PV</option>
+      <option value="120">120 PV</option>
+      <option value="130">130 PV</option>
+      <option value="140">140 PV</option>
+      <option value="150">150 PV</option>
+      <option value="160">160 PV</option>
+      <option value="170">170 PV</option>
+      <option value="180">180 PV</option>
+      <option value="190">190 PV</option>
+      <option value="200">200 PV</option>
+      <option value="210">210 PV</option>
+      <option value="220">220 PV</option>
+      <option value="230">230 PV</option>
+      <option value="240">240 PV</option>
+      <option value="250">250 PV</option>
+      <option value="260">260 PV</option>
+      <option value="270">270 PV</option>
+      <option value="280">280 PV</option>
+      <option value="290">290 PV</option>
+      <option value="300">300 PV</option>
+      <option value="310">310 PV</option>
+      <option value="320">320 PV</option>
+      <option value="330">330 PV</option>
+    </select>
+
+    <label for="type">Type :</label>
+    <select id="type" name="type" required>
+      <option value="" disabled selected>Sélectionner le type</option>
+      <option value="plante">Plante</option>
+      <option value="feu">Feu</option>
+      <option value="eau">Eau</option>
+      <option value="electrick">Electrick</option>
+      <option value="psy">Psy</option>
+      <option value="combat">Combat</option>
+      <option value="obscurite">Obscurité</option>
+      <option value="metal">Métal</option>
+      <option value="fee">Fée</option>
+      <option value="dragon">Dragon</option>
+      <option value="normal">Normal</option>
+    </select>
+
+    <label for="image">Image de la carte :</label>
+    <input type="file" id="image" name="image" accept="image/*" required>
+
+    <button type="submit">Ajouter à la Collection</button>
+  </form>
+
+  <p><a href="collection.html">Voir la collection</a></p>
+
+  <script src="collection.js"></script>
+</section>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collection de Cartes Pokémon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img id="logo" src="logo_pkmn.png" alt="Logo Pokémon Cartes à collectionner"/>
+    <nav>
+      <ul class="menu">
+        <h3><a href="index.html">Ajouter une carte</a></h3>
+        <h3><a href='collection.html'>Collection</a></h3>
+      </ul>
+    </nav>
+</header>
+  <h1>Ma Collection de Cartes Pokémon</h1>
+
+  <label for="sort">Trier par :</label>
+  <select id="sort">
+    <option value="name">Nom (A à Z)</option>
+    <option value="hp">Points de Vie (PV)</option>
+    <option value="type">Type</option>
+  </select>
+
+  <div id="card-container"></div>
+
+  <script src="collection.js"></script>
+</body>
+</html>

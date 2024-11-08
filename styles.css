@@ -1,0 +1,102 @@
+*{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+
+  header{
+    display: flex;
+    font-size:150%;
+    vertical-align: baseline;
+    }
+  
+  .menu{
+    display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  }
+
+  .menu h3 {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo{
+    width: 15%;
+    height: 15%;
+    display: flex;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    margin: 0;
+  }
+  
+  .sort-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  #sort {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 240px;
+    height: 336px;
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .card p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .card .btn-delete {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .card .btn-delete:hover {
+    background-color: #e60000;
+  }
